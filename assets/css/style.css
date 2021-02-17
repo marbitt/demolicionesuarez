@@ -816,6 +816,7 @@ header.v3 {
     position: relative;
     z-index: 999;
     border-bottom: 12px solid #fff;
+    width: 280px!important;
 }
 .logo_v3:before {
     content: '';
