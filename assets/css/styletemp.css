@@ -5336,3 +5336,36 @@ ul.nav.nav-pills li {
 	{    margin-right: 7px;}
 
 }
+/*Margins*/
+.mt-1 {
+  margin-top:20px !important;
+}
+
+.mr-1 {
+  margin-left:20px !important;
+}
+
+.mb-1 {
+  padding-left:20px !important;
+  padding-right:20px !important;
+}
+
+.ml-2 {
+  padding:40px !important;
+}
+.mt-2 {
+  margin-top:40px !important;
+}
+
+.mr-2 {
+  margin-left:40px !important;
+}
+
+.mb-2 {
+  padding-left:40px !important;
+  padding-right:40px !important;
+}
+
+.ml-2 {
+  padding:5px !important;
+}
