@@ -58,32 +58,12 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9RYDR-uXvn43w5NiBkZSTH9VSb_fkUz4"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-       <!--MAPS-->
-        <script type="text/javascript">
-        google.maps.event.addDomListener(window, 'load', init);
-
-        function init() {
-        var mapOptions = {
-        zoom: 14,
-        center: new google.maps.LatLng(-34.637590, -58.364696), // Buenos Aires
-        styles: [{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":51},{"hue":"#ff0003"},{"visibility":"simplified"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"},{"color":"#ffd900"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"simplified"},{"color":"#ffe761"}]},{"featureType":"road.local","elementType":"all","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"simplified"},{"color":"#bfbfbf"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"lightness":-25},{"saturation":-97},{"color":"#616161"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-15},{"saturation":-100},{"color":"#0505d5"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"visibility":"on"}]}]
-        };
-        var mapElement = document.getElementById('map');
-        var map = new google.maps.Map(mapElement, mapOptions);
-        var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(-34.637590, -58.364696),
-        map: map,
-        title: 'Snazzy!'
-        });
-        }
-        </script>
-<!-- ENDMAPS-->
 		<link href="assets/css/styletemp.css" rel="stylesheet">
 
 
 
 	</head>
-	<body>
+	<body oncontextmenu="return false;">
 
 		<header class="v3">
 			<div class="header_top_v3">
@@ -443,10 +423,10 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
                                     <h2>FABIO KOGAN</h2>
                                     <ul class="listing clearfix">
                                         <li>Demolicion </li>
-                                        <li>Cliente: Favio Damian Kogan  </li>
+                                        <li>Favio D. Kogan  </li>
                                         <li>Cramer 3539 </li>
                                     </ul>
-                                    <p>Finding public procurements with Building Radar Little by little public tendering is becoming a standard method for contracting... <a href="#"> Read More</a></p>
+                                    <p>Trabajos de Demolicion en Av. Cramer Ciudad Autonoma de Buenos Aires. <a href="#"></a></p>
                                 </div>
                             </div>
                         </li>
@@ -456,13 +436,13 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
                                     <img src="assets/img/v2_img/news-slid.jpg" alt="news-slid"/>
                                 </div>
                                 <div class="right-news">
-                                    <h2>7</h2>
+                                    <h2>INSTAELECTRO</h2>
                                     <ul class="listing clearfix">
-                                        <li>By Bastian B. </li>
-                                        <li>18 Aug, 2016  </li>
-                                        <li>4 Comments </li>
+                                        <li>Excavacion </li>
+                                        <li>F. Vallese </li>
+                                        <li>Felipe Vallese 1375 </li>
                                     </ul>
-                                    <p>Finding public procurements with Building Radar Little by little public tendering is becoming a standard method for contracting... <a href="#"> Read More</a></p>
+                                    <p>Trabajos de Excavacion Calle Felipe Vallese. <a href="#"></a></p>
                                 </div>
                             </div>
                         </li>
@@ -472,11 +452,11 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
                                     <img src="assets/img/v2_img/news-slid.jpg" alt="news-slid"/>
                                 </div>
                                 <div class="right-news">
-                                    <h2>8</h2>
+                                    <h2>JM MOUZO</h2>
                                     <ul class="listing clearfix">
                                         <li>By Bastian B. </li>
-                                        <li>18 Aug, 2016  </li>
-                                        <li>4 Comments </li>
+                                        <li>Jose Mendez Mouzo  </li>
+                                        <li>San Jose 1330 </li>
                                     </ul>
                                     <p>Finding public procurements with Building Radar Little by little public tendering is becoming a standard method for contracting... <a href="#"> Read More</a></p>
                                 </div>
@@ -1134,29 +1114,7 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
 
 		</script>
 		
-<!--		button back to top-->
-   
-<script type="text/javascript">
-// create the back to top button
-$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 
-var amountScrolled = 300;
-
-$(window).scroll(function() {
-	if ( $(window).scrollTop() > amountScrolled ) {
-		$('a.back-to-top').fadeIn('slow');
-	} else {
-		$('a.back-to-top').fadeOut('slow');
-	}
-});
-
-$('a.back-to-top, a.simple-back-to-top').click(function() {
-	$('html, body').animate({
-		scrollTop: 0
-	}, 700);
-	return false;
-});
-</script>
 <!-- SMOOTH-SCROLLING-->
     <script>
     $(document).ready(function(){
