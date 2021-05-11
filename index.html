@@ -5,8 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Demoliciones Suarez - Demoliciones, Excavaciones y Obras, Capital Federal, Argentina.</title>
-		<meta name="description=" content="Somos un equipo de profesionales con una enorme trayectoria en el rubro de demoliciones y excavaciones de todo tipo. Años de Experiencia y Amplia Trayectoria
-Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en Demoliciones, Consultas Sin Cargo.">
+		<meta name="description=" content="Profesionales con trayectoria en el rubro de demoliciones y excavaciones de todo tipo.">
         <!--CUSTOM & ICONS & FAV-->
         <link rel="apple-touch-icon" sizes="57x57" href="assets/img/v3_img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="assets/img/v3_img/favicon/apple-icon-60x60.png">
@@ -29,22 +28,25 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
         
 		<!-- Bootstrap -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	
 		<!-- Fonts  -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,400i,700,700i" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 		<!-- Owl Carousel -->
 		<link href="assets/css/owl.carousel.css" rel="stylesheet">
 		<link href="assets/css/owl.theme.css" rel="stylesheet">
+		<link href="assets/css/owl.transitions.css" rel="stylesheet">
 		<!-- Gallary -->
-		<link href="assets/css/gallary.css" rel="stylesheet">
+		<link href="assets/assets/css/gallary.css" rel="stylesheet">
 		<!-- Hover -->
-		<link href="assets/css/hover.css" rel="stylesheet">
+		<link href="assets/assets/css/hover.css" rel="stylesheet">
 		<!-- BX Slider -->
+		<!-- Animate.css -->
+		<link href="assets/css/animate.css" rel="stylesheet">
+		<!-- Fancybox -->
+		<link href="assets/css/jquery.fancybox.css" rel="stylesheet">
 		<link href="assets/css/jquery.bxslider.css" rel="stylesheet">
 		<!-- Style.css -->
-		
-			<!-- Bootstrap -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,9 +57,18 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9RYDR-uXvn43w5NiBkZSTH9VSb_fkUz4"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<link href="assets/css/style.css" rel="stylesheet">
+			<!-- VIDEO GALLERY -->
+		<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+		<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+		
+		<link href="assets/css/styletemp.css" rel="stylesheet">
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 	</head>
-	<body>
+<!--	<body oncontextmenu="return false;">-->
+<body>
 		<header class="v3">
 			<div class="header_top_v3">
 				<div class="container">
@@ -92,6 +103,29 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
 														<span class="icon-bar"></span>
 													</button>
 												</div>
+												<div class="navbar-header_v3">
+													<div class="collapse navbar-collapse" id="myNavbar">
+														<ul class="nav navbar-nav v3">
+															<li class="active dropdown">
+																<a class="dropdown-toggle" href="index.html">Home</a>
+															</li>
+															<li><a href="#section2">Nosotros</a></li>
+															<li><a href="#section3">servicios</a></li>
+															<li><a href="#section4">Clientes</a></li>
+															
+<!--
+                                                            <li class="active dropdown">
+                                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes <span class="caret"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                                                                <ul class="dropdown-menu uldropdownmarginadjust">
+                                                                    <li><a href="clients/particulares.html">Particulares (proximamente)</a></li>
+                                                                    <li><a href="clients/industriales.html">Industriales (proximamente)</a></li>
+                                                                </ul>
+                                                            </li>
+-->
+															<li><a href="#">contacto</a></li>
+														</ul>
+													</div>
+												</div>
 											</nav>
 										</div>
 									</div>
@@ -105,35 +139,42 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
 		
 <!--    SECTION #1 HEAD CONSULTAS-->
 		<section class="banner_v3">
-		<section id="myCarousel" class="carousel slide banner">
+		<section id="myCarousel" class="carousel slide .banner">
 				<!-- Indicators -->
-
+<!--
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+-->
 				<!-- Wrapper for Slides -->
 				<div class="carousel-inner">
 					<div class="item active">
 						<!-- Set the first background image using inline CSS below. -->
-						<div class="fill" style="background-image:url(assets/img/v3_img/banner11.jp);"></div>
+						<div class="fill" style="background-image:url(assets/img/v3_img/banner21byw2.png);"></div>
 						<div class="carousel-caption">
 						</div>
 						<span>&nbsp;</span>
 					</div>
 					<div class="item">
 						<!-- Set the second background image using inline CSS below. -->
-						<div class="fill" style="background-image:url(assets/img/v3_img/banner21.jp);"></div>
+						<div class="fill" style="background-image:url(assets/img/v3_img/banner21.jpg);"></div>
 						<div class="carousel-caption">
 						</div>
 						<span>&nbsp;</span>
 					</div>
 					<div class="item">
 						<!-- Set the second background image using inline CSS below. -->
-						<div class="fill" style="background-image:url(assets/img/v3_img/banner31.jp);"></div>
+						<div class="fill" style="background-image:url(assets/img/v3_img/banner31.jpg);"></div>
 						<div class="carousel-caption">
 						</div>
 						<span>&nbsp;</span>
 					</div>
 					<div class="item">
 						<!-- Set the second background image using inline CSS below. -->
-						<div class="fill" style="background-image:url(assets/img/v3_img/banner4c1.jp);"></div>
+						<div class="fill" style="background-image:url(assets/img/v3_img/banner4c.png);"></div>
 						<div class="carousel-caption">
 						</div>
 						<span>&nbsp;</span>
@@ -144,54 +185,698 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
 			<div class="caption">
 				<div class="">
 					<div class="caption_left">
-						<h1>SITIO EN MANTENIMIENTO</h1>
-						<p>Mientras contactanos por el formulario de contacto o a los telefonos de arriba.</p>
-<!--						<a href="#section3" class="chek_button" >Nuestros Servicios</a>-->
+						<h1>Años de Experiencia y Amplia Trayectoria</h1>
+						<p>Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en Demoliciones y excavaciones de todo tipo.</p>
+						<a href="#section3" class="chek_button" >Nuestros Servicios</a>	
+						<div class="elfsight-app-d67c013e-0291-4a1e-80f5-7556ad7db05c"></div>
+
 					</div>
+					
 					<div class="caption_right">
 						<div class="request_form">
-						
- 
+	<!-- 					<h2>Consultas:</h2>
+								<p>Dejanos tus datos y un especialista del Staff se comunicara dentro de las 24hs (dias habiles).</p>
+							<div class="contact_fid">
+								<form id="contact-form" method="post" action="contact.php" role="form">
+									<div class="controls">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input id="form_email" type="email" name="email" class="form-control" placeholder="EMAIL" required data-error="Valid email is required.">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="TEL">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea id="form_message" name="message" class="form-control" placeholder="CONTANOS.." rows="4" required data-error="Please,leave us a message."></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<input type="submit" class="Send-Message" value="Enviar">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div> -->
+
 <!-- TYPEFORM -->
 
 		<div class="typeform-widget" data-url="https://hlg-logistic.typeform.com/to/QBo9wj" style="width: 100%; height: 310px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=QBo9wj&utm_source=typeform.com-10116463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
 <!-- TYPEFORM END -->
-
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- Header END -->
+    
+		</section>
+<!--	END-->
+<!--	SECTION #2 SERVICIOS-->
+    
+    	<!--    WHY US-->
+		<section class="why_choose hidden-xs">
+			<div class="container">
+				<h2>Porque elegirnos</h2>
+				<div class="row">
+					<div class="col-md-4 clearfix">
+						<div class="chose_img"><img src="assets/img/v3_img/choserUs1.png" alt="ch"></div>
+						<div class="chose_text">
+							<h3>Seguridad</h3>
+							<p>Conta con la seguridad de que todo nuestro personal esta asegurado contra todo tipo de riesgos de Trabajo.</p>
+						</div>
+					</div>
+					<div class="col-md-4 clearfix">
+						<div class="chose_img"><img src="assets/img/v3_img/choserUs2.png" alt="ch"></div>
+						<div class="chose_text">
+							<h3>El mejor Asesoramiento</h3>
+							<p>Nuestra mision es atraer y retener potenciales clientes poniendo todo nuestro enfasis en darle el mejor asesoramiento del mercado en nuestro rubro.</p>
+						</div>
+					</div>
+					<div class="col-md-4 clearfix">
+						<div class="chose_img"><img src="assets/img/v3_img/choserUs3.png" alt="ch"></div>
+						<div class="chose_text">
+							<h3>Reputacion</h3>
+							<p>Tenemos una fuerte presencia en la industria debido a nuestro desempeño y pasion en el campo. </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+<!--    END-->
+		<section class="main_body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="body-heding" id="section3">
+							<h2>Servicios</h2>
+								<div class="heding_under">&nbsp;</div>
+							<p>Hombres y maquinas unidos en un esfuerzo comun para el mejor resultado final.</p>
+						</div>
+					</div>
+				</div>
+				<div class="what_gallery">
+					<div class="row hidden-xs">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-de3.jpg" alt="">
+								<div class="overlay">
+									<h2>Demoliciones</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-exc.jpg" alt="">
+								<div class="overlay">
+									<h2>Excavaciones</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-obra.jpg" alt="">
+								<div class="overlay">
+									<h2>Obras</h2>
+								<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-limp.jpg" alt="">
+								<div class="overlay">
+									<h2>Limpieza de Terrenos</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-suelo.jpg" alt="">
+								<div class="overlay">
+									<h2>Movimiento Suelo</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-venta.jpg" alt="">
+								<div class="overlay">
+									<h2>Compra y Venta</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-ints.jpg" alt="">
+								<div class="overlay">
+									<h2>Interiores</h2>
+									<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+							<div class="hovereffect_v3">
+								<img class="img-responsive" src="assets/img/v3_img/serv-pres.jpg" alt="">
+								<div class="overlay">
+									<h2>Presupuestos sin cargo</h2>
+								<a class="info" href="#">DEMOLICIONES SUAREZ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!--    END -->
+
+<!-- SECTION REFERENCIAS COMERCIALES-->
+<div class="container">
+	<div class="row">
+<section class="RefCommercial"  id="section4">
+	<div class="news-head">
+		<h2>Referencias comerciales</h2>
+	</div>
+	<div class="heading-news mt-2"><img src="assets/img/v2_img/news.png" alt="srv-head"></div>
+			<div class="news-left col-md-5">
+				<img src="assets/img/bigone-test6.png" alt="man">
+			</div>	
+            <div class="col-md-7">
+
+                <div class="news-slider">
+                    <ul id="flexiselDemo4">
+                        <li>
+                            <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>SAGOMATI SA.</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Demolicion </li>
+                                        <li>Rivero 29/31  </li>
+                                        <li>Avellaneda - BA </li>
+                                    </ul>
+                                    <p>Trabajo de demolicion para SAGOMATI SA y CURIA SA .</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test2.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>LOMAS VIAL</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Mov. Suelo </li>
+                                        <li>Walter Desiata  </li>
+                                        <li>Calle T. Guido </li>
+                                    </ul>
+                                    <p>Obra de Movimiento de suelo en Terminal de Colectivos, sobre calle Tomas Guido.</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>WORK GROUP</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Mov. Suelo </li>
+                                        <li>W Group  </li>
+                                        <li>San Fernando - Tigre </li>
+                                    </ul>
+                                    <p>Obra de movimiento de Suelo en San Fernando Partido de Tigre. <a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>VIJIOSA CONSTRUCTORA</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Excavacion </li>
+                                        <li>V Constructora  </li>
+                                        <li>Paseo Colon 1432 </li>
+                                    </ul>
+                                    <p>Trabajos de Excavacion en Av. Paseo Colon Ciudad Autonoma de Buenos Aires.<a href="#"> </a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>LUCIANO KRUK</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Excavacion </li>
+                                        <li>L Kruk </li>
+                                        <li>Juramento 1081 </li>
+                                    </ul>
+                                    <p>Trabajos de Excavacion en Av. Paseo Colon Ciudad Autonoma de Buenos Aires.<a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>FABIO KOGAN</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Demolicion </li>
+                                        <li>Favio D. Kogan  </li>
+                                        <li>Cramer 3539 </li>
+                                    </ul>
+                                    <p>Trabajos de Demolicion en Av. Cramer Ciudad Autonoma de Buenos Aires. <a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>INSTAELECTRO</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Excavacion </li>
+                                        <li>F. Vallese </li>
+                                        <li>Felipe Vallese 1375 </li>
+                                    </ul>
+                                    <p>Trabajos de Excavacion Calle Felipe Vallese. <a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>JM MOUZO</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Demolicion </li>
+                                        <li>Jose Mendez Mouzo  </li>
+                                        <li>San Jose 1330 </li>
+                                    </ul>
+                                    <p>Trabajos de demolicion. <a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="building clearfix">
+                                <div class="left-pic-news">
+                                    <img src="assets/img/smallone-test1.png" alt="news-slid"/>
+                                </div>
+                                <div class="right-news">
+                                    <h2>AZZOLLINI CONSTRUCCIONES</h2>
+                                    <ul class="listing clearfix">
+                                        <li>Demolicion </li>
+                                        <li>Azzollini Const. </li>
+                                        <li>24 de Nov 2120</li>
+                                    </ul>
+                                    <p>Trabajos de demoliciones para A.C. Sobre calle 24 de Noviembre <a href="#"></a></p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>        	
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		
+<!--    END-->
+
+<!--    SECTION #3 NOSOTROS-->
+		<section class="body_def_color">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="body-heding" id="section2">
+							<h2>Nosotros</h2>
+							<div class="heding_under">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="about_content">
+							<h3>Demoliciones Suarez</h3>
+							<p>Somos un equipo de profesionales con una enorme trayectoria en el rubro de demoliciones y excavaciones de todo tipo.</p>
+							<p>Entre nuestras principales actividades tenemos la venta de materiales de demolicion y movimiento de suelo.</p>
+							<a href="#section4" class="chek_button">Obras Actualmente en Proceso</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!--    END-->
+<!--    SECTION #4 OBRAS EN PROCESO-->
+		<section class="project-gallery">
+		<div class="col-md-12 col-md-12">
+						<div class="body-heding margin-t">
+							<h2 id="section4">Obras en Proceso</h2>
+							<div class="heding_under">&nbsp;</div>
+						</div>
+					</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project1.jpg" alt="">
+					<div class="img_description">
+						<h3>Demolicion</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i> Palermo Holywood, CABA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Demolicion</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i> Palermo Holywood CABA</p>
+                        <p><i class="fa fa-check-circle-o done"> Completado!</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project2.jpg" alt="">
+					<div class="img_description">
+						<h3>Demolicion  y Obra</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Caballito, CABA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Demolicion parcial y Construccion</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Caballito, CABA</p>
+                        <p><i class="fa fa-check-circle-o inprogress"> En Obra</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project3.jpg" alt="">
+					<div class="img_description">
+						<h3>Excavacion</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Lomas de Zamora, BA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Excavacion, AYSA</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Lomas de Zamora, BA</p>
+                        <p><i class="fa fa-check-circle-o done"> Completado!</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project4.jpg" alt="">
+					<div class="img_description">
+						<h3>Demolicion</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i> Colegiales, CABA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Demolicion Total, Edificio San Jorge</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i> Colegiales, CABA</p>
+						<p><i class="fa fa-check-circle-o inprogress"> En Obra</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project5.jpg" alt="">
+					<div class="img_description">
+						<h3>Movimiento de Suelo</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Tigre, BA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Mov. de Suelo, Terreno Delta del Tigre.</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Tigre, BA</p>
+						<p><i class="fa fa-check-circle-o inprogress"> En Obra</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="project_item">
+				<div class="hovereffect_projct">
+					<img class="img-responsive" src="assets/img/v3_img/project6.jpg" alt="">
+					<div class="img_description">
+						<h3>Interior</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Palermo, CABA</p>
+					</div>
+					<div class="overlay_projct">
+						<h3>Demolicion Int., Of. Torres Le Parc</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Palermo, CABA</p>
+						<p><i class="fa fa-check-circle-o done"> Completado!</i></p>
+<!--						<a href="#" class="see_prode">See Project</a>-->
+					</div>
+				</div>
+			</div>
+		</section>
+<!--    END-->
+
+
+<!--    MOD COTIZ.-->
+		<section class="main_body">
+			<div class="container">
+				<div class="free_quote">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5">
+							<h3>Cotizacion sin cargo!</h3>
+							<p>Nuestro equipo de Profesionales te estan esperando! Un profesional respondera tu consulta dentro de las 24hs de LUN a VIE.</p>
+						</div>
+						<div class="col-md-6 pull-right">
+							<!-- <div class="qute_today hidden-xs"> -->
+								<!-- <a href="mailto:info@demolicionesuarez.com.ar"><i class="fa fa-envelope-o" aria-hidden="true"></i>Obtene tu cotizacion</a> -->
+<!-- TYPEFORM COTIZACION -->
+	<a class="typeform-share button" href="https://hlg-logistic.typeform.com/to/CbN1c8" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FFCD00;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:24px;line-height:60px;text-align:center;margin:0;height:60px;padding:0px 40px;border-radius:12px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="5" target="_blank">COTIZAR </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<!-- END TYPEFORM COTIZACION -->
+
+							<!-- </div> -->
+							<div class="hidden-sm hidden-md hidden-lg col-xs-12"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!--    END-->
+<!--    MOD #5 CLIENTS SAYS-->
+		<section class="testimoinal">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="body-heding">
+							<h2>Que dicen nuestros Clientes</h2>
+							<div class="heding_under">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+				<div id="testi_slider" class="owl-carousel team_slider">
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli01.png" alt="test_img"></div>
+						<div class="test_text">
+							<p>Gente muy profesional comprometida con el trabajo, indudablemente volveria a contactarlos. </p>
+							<h6>- Martin A. Alberca</h6>
+						</div>
+					</div>
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli02.png" alt="test_img"></div>
+						<div class="test_text">
+							<p> Era un proyecto dificil no sabia si era posible hacerlo hasta que me contacte con estos profesionales y despejaron todas mis dudas.</p>
+							<h6>- Juana Perez</h6>
+						</div>
+					</div>
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli03.png" alt="test_img"></div>
+						<div class="test_text">
+							<p>Gente muy profesional comprometida con el trabajo, indudablemente volveria a contactarlos. </p>
+							<h6>- Juan Perez</h6>
+						</div>
+					</div>
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli04.png" alt="test_img"></div>
+						<div class="test_text">
+							<p> Era un proyecto dificil no sabia si era posible hacerlo hasta que me contacte con la gente.</p>
+							<h6>- jean Perez</h6>
+						</div>
+					</div>
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli05.png" alt="test_img"></div>
+						<div class="test_text">
+							<p>Gente muy profesional comprometida con el trabajo, indudablemente volveria a contactarlos. </p>
+							<h6>- Juan Perez</h6>
+						</div>
+					</div>
+					<div class="item">
+						<div class="test_img"><img src="assets/img/v3_img/cli06.png" alt="test_img"></div>
+						<div class="test_text">
+							<p> Era un proyecto dificil no sabia si era posible hacerlo hasta que me contacte con la gente.</p>
+							<h6>- Juan Perez</h6>
+						</div>
+					</div>
+					
+					<!-- Hidden video div -->
+<div style="display:none;" id="video1">
+    <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+        <source src="videos/video1.mp4" type="video/mp4">
+         Your browser does not support HTML5 video.
+    </video>
+</div>
+<div style="display:none;" id="video2">
+    <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+        <source src="videos/video2.mp4" type="video/mp4">
+         Your browser does not support HTML5 video.
+    </video>
+</div>
+ 
+<!-- data-src should not be provided when you use html5 videos -->
+<ul id="video-gallery">
+  <li data-poster="video-poster1.jpg" data-sub-html="video caption1" data-html="#video1" >
+      <img src="img/thumb1.jpg" />
+  </li>
+  <li data-poster="video-poster2.jpg" data-sub-html="video caption2" data-html="#video2" >
+      <img src="img/thumb2.jpg" />
+  </li>
+  ...
+</ul>
+
+
+
+				</div>
+			</div>
+		</section>
+<!--    END-->
+
+<!--    NUESTROS CLIENTES-->
+		<section class="our_customers">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="body-heding">
+							<h2>nuestros clientes</h2>
+							<div class="heding_under">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+				<div id="customers_slider" class="Our_client">
+					<div class="item"><a href="#"><img src="assets/img/v3_img/cli-cablevision.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer01.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer02.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer03.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer04.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer05.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer06.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer07.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer08.png" alt="client_icon"></a></div>
+					<div class="item"><a href="#"><img src="assets/img/v3_img/customer12.png" alt="client_icon"></a></div>
+				</div>	
+			</div>
+		</section>
+<!--    END-->
+<!--    FOOTER-->
 		<section class="footer-contact">
 			<div class="container">
 				<div class="row">
 					<ul>
-						<li class="col-md-12 clearfix">
-							<div class="img_icon"><img src="assets/img/v3_img/arrow_right.png" width="10" height="" alt="call"></div>
+						<li class="col-md-3 clearfix">
+							<div class="img_icon"><img src="assets/img/v3_img/call2.png" width="30" height="30" alt="call"></div>
 							<div class="ico_text">
-                                <h2><em>Evolucion del Mantenimiento.</em></h2></br>
-<!--								<h4>Tiempo Estimado de Demora 48hs. Restablecimiento de los servicios 18/02/21 12:00 pm</h4>-->
+								<h4>(11) 4303 - 1851</h4><span>info@dsuarez.com</span>
 							</div>
 						</li>
-
-
+						<li class="col-md-5 clearfix">
+							<div class="img_icon"><img src="assets/img/v3_img/map2.png" width="25" height="31" alt="map"></div>
+								<div class="ico_text"> <h4>Olavarria 822 (C1162)</h4><span>Ciudad de Buenos Aires</span>
+							</div>
+						</li>
+						<li class="col-md-4 clearfix">
+							<div class="img_icon"> <img src="assets/img/v3_img/fax.png" width="25" height="31" alt="fax"></div>
+								<div class="ico_text"> <h4>114303-1851</h4> <span>Nuestro Fax</span>
+							</div>
+						</li>
 					</ul>
-					
 				</div>
-            <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">Etapa 1 100%</div>
-            </div>
-            <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 83%">Etapa 2 83%</div>
-            </div>
-            
 			</div>
 		</section>
 
 		<footer class="v3">
 			<div class="container">
-
+				<div class="row">
+					<div class="col-md-3">
+						<h2>NOSOTROS</h2>
+						<p>Somos un equipo de profesionales con una enorme trayectoria en el rubro de demoliciones y excavaciones de todo tipo.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="footer_logo"><a href="#"><img src="assets/img/v3_img/logoprov2.png" alt="footer_logo"></a></div>
+							</div>
+							<div class="col-md-6 text-right">
+								<ul class="footer_socal">
+                                    <li><a href="#facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a href="#Twitter"><i class="fa fa-Twitter-square" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>    
+<!--
+						<div class="footer_newsletter">
+							<h3>Suscribite a nuestro Newsletter</h3>
+							<div class="input-group stylish-input-group">
+								<input type="email" class="form-control" placeholder="Your Email Address">
+								<span class="input-group-addon">
+									<button type="submit">
+										<span class="glyphicon glyphicon-send"></span>
+									</button>
+								</span>
+							</div>
+						</div>
+-->
+					</div>
+					<div class="col-md-3">
+						<div class="work_houes">
+							<h3>Horarios de atencion</h3>
+							<ul>
+								<li>Lun: <span>8am - 7pm</span></li>
+								<li>Mar: <span>8am - 7pm</span></li>
+								<li>Mie: <span>8am - 7pm</span></li>
+								<li>Jue: <span>8am - 7pm</span></li>
+								<li>Vie: <span>8am - 7pm</span></li>
+								<li>Sab: <span>8am - 7pm</span></li>
+								<li>Dom: <span>Cerrado</span></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 hidden-lg hidden-md hidden-sm">-</div>
+					</div>
+					<div class="col-md-2 col-sm-6 hidden-xs">
+						<h2>SERVICIOS</h2>
+						<ul class="Solutions">
+							<li>Demoliciones</li>
+							<li>Excavaciones</li>
+							<li>Obras Civiles, industriales y particulares</li>
+							<li>Limpieza de Terrenos, Galpones y Siniestros</li>
+							<li>Movimiento de Suelos</li>
+							<li>Compra y Venta de Material de Demoliciones</li>
+							<li>Trabajos Interior</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						 <h2>ENCONTRANOS EN</h2>
+                        <section class="map" id="map">
+                        </section>
+					</div>
+				</div>
 				<div class="col-md-6 copy_right">
 					<p>© Copyright 2017 Demoliciones Suarez.</p>
 				</div>
@@ -200,15 +885,100 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
 					MARBITT</a></p>
 				</div>
 			</div>
+			
 		</footer>
 
-		<script src="assets/js/jquery-3.1.0.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/0b104a99db.js"></script>
+		
+		<script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 		<script src="assets/js/owl.carousel.js"></script>
-<!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<script src="assets/js/isotope.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.fancybox.pack.js"></script>
+<!--CLients slide-->
+		<script>
+			$(document).ready(function() {
+				$("#profession_slid").owlCarousel({
+					items : 3,
+					lazyLoad : true,
+					navigation : true,
+					itemsDesktop      : [1199,3],
+					itemsDesktopSmall     : [992,3],
+					itemsTablet       : [768,1],
+					itemsMobile       : [480,1],
+					autoPlay: 300000
+				});
+			});
 
+			$(document).ready(function() {
+				$("#testi_slider").owlCarousel({
+					items : 2,
+					lazyLoad : true,
+					navigation : true,
+					itemsDesktop      : [1199,2],
+					itemsDesktopSmall     : [992,2],
+					itemsTablet       : [768,1],
+					itemsMobile       : [480,1],
+					autoPlay: 3000
+				});
+			});
+
+			$(document).ready(function() {
+				$("#customers_slider").owlCarousel({
+					items : 6,
+					lazyLoad : true,
+					navigation : true,
+					autoPlay: 3000
+				});
+			});
+
+		</script>
+    
+<!--    Jumbotron OwlCarrousel-->
+    	<script>
+
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+					items : 4,
+					lazyLoad : true,
+					navigation : true
+				});
+			});
+
+			$(document).ready(function() {
+				$("#owl-demo2").owlCarousel({
+					navigation:true,
+					items : 5,
+					afterInit : function(elem){
+						var that = this
+						that.owlControls.prependTo(elem)
+					}
+				});
+			});
+
+		</script>
+
+		<script>
+
+			$(document).ready(function(){
+				$('.slider8').bxSlider({
+					mode: 'vertical',
+					minSlides: 3,
+				});
+			});
+
+		</script>
+
+		<script>
+
+			$('.carousel').carousel({
+				interval: 3000 //changes the speed
+			});
+
+		</script>
+		
 
 <!-- SMOOTH-SCROLLING-->
     <script>
@@ -237,6 +1007,110 @@ Es lo que nos caracteriza, con mas de 20 años en el rubro nos especializamos en
     });
     });
     </script>
+    <script>
+			$(function(){
+				$('ul.tabs li:first').addClass('active');
+				$('.block article').hide();
+				$('.block article:first').show();
+				$('ul.tabs li').on('click',function(){
+					$('ul.tabs li').removeClass('active');
+					$(this).addClass('active')
+					$('.block article').hide();
+					var activeTab = $(this).find('a').attr('href');
+					$(activeTab).show();
+					return false;
+				});
+			});
+		</script>
+
+		<script>
+		$(document).ready(function() {
+			$("#testimo_v2").owlCarousel({
+				autoPlay : true,
+				stopOnHover : true,
+				navigation:true,
+				paginationSpeed : 1000,
+				goToFirstSpeed : 2000,
+				singleItem : true,
+				autoHeight : true,
+				transitionStyle:"backSlide"
+			});
+		});
+		</script>
+
+		<script type="text/javascript">
+			$(window).on('load', function() {
+				$("#flexiselDemo1").flexisel();
+				$("#flexiselDemo2").flexisel({
+					visibleItems: 6,
+					autoPlay: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						},
+						landscape: { 
+							changePoint:640,
+							visibleItems: 2
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+
+				$("#flexiselDemo3").flexisel({
+					visibleItems: 3,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 300000,            
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 2
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+
+				$("#flexiselDemo4").flexisel({
+					visibleItems: 1,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,            
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 1
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 1
+						}
+					}
+				});
+			
+			});
+			
+		</script>
 <!-- END-SMOOTH-SCROLLING-->
+
 	</body>
 </html>
