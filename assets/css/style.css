@@ -2256,7 +2256,7 @@ color:#333333;
 
 
 .inner_banner{ 
-	background:url(../img/innerBanner.jpg) no-repeat center; 
+/*	background:url(../img/innerBanner.jpg) no-repeat center; */
 	padding:23px 0; 
 	text-align:right; 
 	position:relative;
@@ -2409,6 +2409,7 @@ margin-bottom:25px;
 	background:url(../img/arrow.png) no-repeat 0;
     padding:10px 0px 10px 25px;
     border-bottom:1px solid #464646;
+    font-family: 9px!important;
 }
 .Solutions li:last-child{ 
 	border:none;
@@ -2677,26 +2678,20 @@ footer.v2 {
     margin: 0;
 }
 .foot-serv li {
-      padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #404040;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Lato,'PT Sans' sans-serif;
+    color:#333333;
+    font-weight: 100,
 }
 .foot-serv li:before {
     content: '\f178';
     font-family: 'FontAwesome';
     padding-right: 10px;
     font-size: 12px;
-    color: #FFF;
-}
-.foot-serv li a{
-	color: #939393;
-    font-size: 16px;
-
+    color:red;
 }
 
-.foot-serv li a:hover {
-    color: #ffd00e;
-}
 .news-item {
     margin-bottom: 25px;
 }
@@ -5414,4 +5409,12 @@ a:hover.back-to-top {
 }
 .uldropdownmarginadjust{
 margin-top: -21px!important;
+}
+.insta_feed{
+    background: rgb(51, 51, 51) !important;
+}
+
+.css-11cewt9{
+    font-size: 1px!important;
+    color: #ffffff!important;
 }
