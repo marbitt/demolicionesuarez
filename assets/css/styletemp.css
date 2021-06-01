@@ -2568,7 +2568,7 @@ ul.footer_socal li a {
 .copy_right {
     border-top: 2px solid #3c3c3c;
     margin-top: 60px;
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 }
 .copy_right p {
@@ -4014,6 +4014,28 @@ ul.nav.nav-pills li:nth-child(2) {
     height: 32px;
     width: 100%;
 }
+.commercialwidth{
+    min-width: 390px!important;
+}
+
+.refsmobile{
+    text-align: center;
+}
+.refsmobile ul{
+    margin-bottom: 20px;
+}
+.refsmobile ul>li{
+    font-size: 11px;
+    text-align: justify;
+    margin-left: 30px;
+}
+.refsmobile ul>li:before {
+    content: '\f178';
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    font-size: 12px;
+    color: #ffcd00;
+}
 
 div#testi_slider {
     padding-top: 40px;
@@ -4834,6 +4856,15 @@ nav.navbar.navbar-inverse.v3 {
 .hovereffect_pro .overlayes{display:none;}
 .free_quote{padding:20px;
 }
+    .mobileico_text{
+        margin: 0 0 0 50px;
+    }
+    
+    .footer-mbtmobile{
+        margin-bottom: 30px;
+        background-color: aliceblue;
+        margin-top: 20px;
+    }
 .team_titel{ width:90%; padding:10px;}
 .tem_tt {
     margin-left: 5px;
@@ -4997,6 +5028,11 @@ nav.navbar.navbar-inverse.v3 {
 .read-about{margin:0 auto;}
 .latest-news .news-head h2{padding:0;left: 0;}
 
+    .news-head h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 .get-left-tex, .get-right
 {
 	padding:0;
@@ -5030,6 +5066,8 @@ nav.navbar.navbar-inverse.v3 {
 {
 	padding-right:10px;
 }
+
+    
 .tem-pic {
     text-align: center;
     left: 0;
